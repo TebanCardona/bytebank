@@ -1,5 +1,5 @@
 public class Contador extends Funcionario {
-  public double getBonificaion() {
+  public double getBonificacion() {
     return 200;
   }
 }

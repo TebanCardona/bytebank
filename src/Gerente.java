@@ -1,4 +1,4 @@
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Autenticable {
   private String clave;
 
   public void setClave(String clave) {
@@ -10,6 +10,6 @@ public class Gerente extends Funcionario {
   }
 
   public double getBonificacion() {
-    return super.getSalario() + super.getBonificacion();
+    return super.getSalario() + this.getSalario();
   }
 }
