@@ -1,9 +1,6 @@
-package test;
+package com.bytebank.test;
 
-import model.Contador;
-import model.ControlBonificacion;
-import model.Funcionario;
-import model.Gerente;
+import com.bytebank.model.*;
 
 public class TestControlBonificacion {
   public static void main(String[] args) {

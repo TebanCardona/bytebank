@@ -1,4 +1,4 @@
-package model;
+package com.bytebank.model;
 
 public class SistemaInterno {
   private String clave = "12345";

@@ -1,7 +1,7 @@
-package test;
+package com.bytebank.test;
 
-import model.Contador;
-import model.Gerente;
+import com.bytebank.model.Contador;
+import com.bytebank.model.Gerente;
 
 public class testFuncionario {
   public static void main(String[] args) {

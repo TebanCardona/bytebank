@@ -1,6 +1,6 @@
-package test;
+package com.bytebank.test;
 
-import model.Gerente;
+import com.bytebank.model.Gerente;
 
 public class testGerente {
   public static void main(String[] args) {

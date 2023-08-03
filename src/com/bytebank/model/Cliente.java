@@ -1,4 +1,4 @@
-package model;
+package com.bytebank.model;
 
 public class Cliente implements Autenticable {
   private String nombre;

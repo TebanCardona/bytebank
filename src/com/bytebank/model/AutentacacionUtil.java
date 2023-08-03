@@ -1,4 +1,4 @@
-package model;
+package com.bytebank.model;
 
 public class AutentacacionUtil {
   private String clave;

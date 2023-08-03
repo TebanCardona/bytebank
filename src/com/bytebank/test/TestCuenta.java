@@ -1,9 +1,9 @@
-package test;
+package com.bytebank.test;
 
-import model.Cliente;
-import model.CuentaAhorros;
-import model.CuentaCorriente;
-import model.SaldoInsuficienteException;
+import com.bytebank.model.Cliente;
+import com.bytebank.model.CuentaAhorros;
+import com.bytebank.model.CuentaCorriente;
+import com.bytebank.model.SaldoInsuficienteException;
 
 public class TestCuenta {
   public static void main(String[] args) {
