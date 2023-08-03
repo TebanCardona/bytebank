@@ -4,7 +4,11 @@ public class TestCuenta {
     CuentaCorriente cc = new CuentaCorriente(0, 0, 0, jose);
     CuentaAhorros ca = new CuentaAhorros(0, 0, 0, jose);
     cc.depositar(2000);
-    cc.transferir(1000, ca);
+    try {
+      cc.transferir(1000, ca);
+    } catch (SaldoInsuficienteException e) {
+      e.printStackTrace();
+    }
     System.out.println(cc.getSaldo());
     System.out.println(ca.getSaldo());
 
