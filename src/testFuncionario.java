@@ -1,3 +1,6 @@
+import model.Contador;
+import model.Gerente;
+
 public class testFuncionario {
   public static void main(String[] args) {
     Contador diego = new Contador();

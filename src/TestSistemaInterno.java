@@ -1,3 +1,7 @@
+import model.Administrador;
+import model.Gerente;
+import model.SistemaInterno;
+
 public class TestSistemaInterno {
   public static void main(String[] args) {
     SistemaInterno sist = new SistemaInterno();

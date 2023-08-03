@@ -1,3 +1,5 @@
+package model;
+
 public class Cliente implements Autenticable {
   private String nombre;
   private String documento;

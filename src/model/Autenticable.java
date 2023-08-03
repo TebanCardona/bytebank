@@ -1,3 +1,5 @@
+package model;
+
 public interface Autenticable {
 
   public void setClave(String clave);

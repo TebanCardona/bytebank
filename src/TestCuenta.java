@@ -1,3 +1,8 @@
+import model.Cliente;
+import model.CuentaAhorros;
+import model.CuentaCorriente;
+import model.SaldoInsuficienteException;
+
 public class TestCuenta {
   public static void main(String[] args) {
     Cliente jose = new Cliente("jose", "1231231231", "asdasd1232");

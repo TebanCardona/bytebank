@@ -1,3 +1,5 @@
+package model;
+
 public class CuentaCorriente extends Cuenta {
 
   public CuentaCorriente(double saldo, int agencia, int numero, Cliente titular) {

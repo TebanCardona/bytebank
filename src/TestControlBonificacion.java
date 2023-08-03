@@ -1,3 +1,8 @@
+import model.Contador;
+import model.ControlBonificacion;
+import model.Funcionario;
+import model.Gerente;
+
 public class TestControlBonificacion {
   public static void main(String[] args) {
     Funcionario diego = new Contador();

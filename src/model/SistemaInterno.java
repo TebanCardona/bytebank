@@ -1,3 +1,5 @@
+package model;
+
 public class SistemaInterno {
   private String clave = "12345";
 
