@@ -1,3 +1,5 @@
+package test;
+
 import model.Contador;
 import model.ControlBonificacion;
 import model.Funcionario;
