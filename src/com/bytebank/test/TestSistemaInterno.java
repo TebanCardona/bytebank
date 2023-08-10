@@ -5,6 +5,10 @@ import com.bytebank.model.Gerente;
 import com.bytebank.model.SistemaInterno;
 
 public class TestSistemaInterno {
+
+  /**
+   * @param args
+   */
   public static void main(String[] args) {
     SistemaInterno sist = new SistemaInterno();
     Administrador admin = new Administrador();

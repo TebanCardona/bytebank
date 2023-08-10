@@ -7,6 +7,10 @@ public class Gerente extends Funcionario implements Autenticable {
     this.util = new AutentacacionUtil();
   }
 
+  /**
+   * @param clave
+   * @return boolean
+   */
   public boolean iniciarSesion(String clave) {
     return this.util.iniciarSesion(clave);
   }

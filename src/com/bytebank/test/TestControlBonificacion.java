@@ -3,6 +3,10 @@ package com.bytebank.test;
 import com.bytebank.model.*;
 
 public class TestControlBonificacion {
+
+  /**
+   * @param args
+   */
   public static void main(String[] args) {
     Funcionario diego = new Contador();
     diego.setSalario(2000);

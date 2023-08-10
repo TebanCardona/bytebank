@@ -6,6 +6,9 @@ public abstract class Funcionario {
   private double salario;
   private int tipo;
 
+  /**
+   * @return int
+   */
   public int getTipo() {
     return tipo;
   }

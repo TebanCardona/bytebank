@@ -4,6 +4,10 @@ import com.bytebank.model.Contador;
 import com.bytebank.model.Gerente;
 
 public class testFuncionario {
+
+  /**
+   * @param args
+   */
   public static void main(String[] args) {
     Contador diego = new Contador();
     diego.setNombre("Diego");

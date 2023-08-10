@@ -6,6 +6,10 @@ public class CuentaCorriente extends Cuenta {
     super(saldo, agencia, numero, titular);
   }
 
+  /**
+   * @param valor
+   * @throws SaldoInsuficienteException
+   */
   @Override
   public void retirar(double valor) throws SaldoInsuficienteException {
     double comision = 0.2;

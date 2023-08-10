@@ -1,5 +1,10 @@
 package com.bytebank.model;
 
+/**
+ * Cuenta va crear nuevas instancias de CuentaCorriente y CuentaAhorras
+ * 
+ * @author TebanCardona
+ */
 public abstract class Cuenta {
   protected double saldo;
   private int agencia;
@@ -9,6 +14,15 @@ public abstract class Cuenta {
   private static int total = 0;
 
   // Constructor
+
+  /**
+   * Instancia Cuenta con Saldo Agencia Numero y la cuenta Titular
+   * 
+   * @param saldo
+   * @param agencia
+   * @param numero
+   * @param titular
+   */
   public Cuenta(double saldo, int agencia, int numero, Cliente titular) {
     this.agencia = agencia <= 0 ? 1 : agencia;
     this.numero = numero;
@@ -17,6 +31,18 @@ public abstract class Cuenta {
     ++total;
   }
 
+  /**
+   * @param valor
+   * @throws SaldoInsuficienteException
+   */
+  /**
+   * @param valor
+   * @throws SaldoInsuficienteException
+   */
+  /**
+   * @param valor
+   * @throws SaldoInsuficienteException
+   */
   // metodos
   public abstract void depositar(double valor);
 

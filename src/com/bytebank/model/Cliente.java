@@ -14,6 +14,9 @@ public class Cliente implements Autenticable {
     this.util = new AutentacacionUtil();
   }
 
+  /**
+   * @return String
+   */
   public String getNombre() {
     return nombre;
   }
