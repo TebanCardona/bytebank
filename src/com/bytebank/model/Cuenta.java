@@ -97,4 +97,16 @@ public abstract class Cuenta {
   public static int getTotal() {
     return total;
   }
+
+  @Override
+  public String toString() {
+    return "hola Soy la cuenta" + getNumero();
+
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    Cuenta cuenta = (Cuenta) obj;
+    return this.agencia == cuenta.getAgencia() && this.numero == cuenta.getNumero();
+  }
 }
