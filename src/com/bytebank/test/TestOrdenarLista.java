@@ -40,19 +40,16 @@ public class TestOrdenarLista {
     lista.add(cc2);
     lista.add(cc3);
     lista.add(cc4);
-    // ? Ordenar las cuentas
+    // * Ordenar las cuentas
     // Comparator<Cuenta> comparator = new OrdenadorPorNombre();
     // lista.sort(comparator);
-    lista.sort(new Comparator<Cuenta>() {
-      @Override
-      public int compare(Cuenta o1, Cuenta o2) {
-        return Integer.compare(o1.getNumero(), o2.getNumero());
-      }
-    });
+    lista.sort((Cuenta o1, Cuenta o2) -> Integer.compare(o1.getNumero(), o2.getNumero()));
     for (Cuenta cuenta : lista) {
       System.out.println(cuenta.getTitular().getNombre());
     }
+    lista.forEach((cuenta) -> System.out.println(cuenta.getSaldo()));
   }
+
 }
 
 class OrdenadorPorNombre implements Comparator<Cuenta> {
